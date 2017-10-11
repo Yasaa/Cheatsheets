@@ -1,0 +1,503 @@
+
+1.NAVBARS: A navigation bar with just links,A navigation bar with links and a dropdown,A navigation bar with links and "Hello,Yasaa" and LogOut, a navigation bar with links and a dropdown and "Hello Yasaa" and LogOut,a navigation bar with all that and a glyphicon for profile.
+   i) .navbar
+
+   ii) .navbar-default  
+
+   iii) .navbar-header
+
+   iv) .navbar-toggle
+
+   v) .navbar-collapse
+
+   vi) .navbar-nav
+
+
+     USAGE:1.  <div class="container">
+               <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Contact</a></li>
+               </ul>
+               </div>
+
+
+           2.  <div class="container">
+               <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Contact</a></li>
+               </ul>
+
+                
+                
+                <ul class="nav navbar-nav">
+                 
+                  <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                   Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Woah</a></li>
+                    <li><a href="#">Bleh</a></li>
+                 </ul>
+                </li>
+                  
+               </ul>
+               
+               </div>
+
+
+
+
+            3. <div class="container">
+               <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Contact</a></li>
+               </ul>
+
+               
+               <ul class="nav navbar-nav navbar-right">
+               <li><a href="#">Welcome, Yasaa</a></li>
+               <li><a href="login.html">Logout</a></li>
+               </ul>
+               
+               </div>
+
+
+
+            4. <div class="container">
+               <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Contact</a></li>
+               </ul>
+
+                
+                <div>
+                <ul class="nav navbar-nav">
+                 
+                  <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                   Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Woah</a></li>
+                    <li><a href="#">Bleh</a></li>
+                 </ul>
+                </li>
+                  
+               </ul></div>
+               
+
+                 <div>
+               <ul class="nav navbar-nav navbar-right">
+               <li><a href="#">Welcome, Yasaa</a></li>
+               <li><a href="login.html">Logout</a></li>
+               </ul>
+               </div>
+               
+               </div>
+
+
+
+            5. <div class="container">
+               <ul class="nav navbar-nav">
+               <li class="active"><a href="#">Home</a></li>
+               <li><a href="#">About Me</a></li>
+               <li><a href="#">Contact</a></li>
+               </ul>
+
+                
+                <div>
+                <ul class="nav navbar-nav">
+                 
+                  <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                   Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Woah</a></li>
+                    <li><a href="#">Bleh</a></li>
+                 </ul>
+                </li>
+                  
+               </ul></div>
+               
+
+                 <div>
+               <ul class="nav navbar-nav navbar-right">
+               <li><a href="#"><span class="glyphicon glyphicon-user"></span>Welcome, Yasaa</a></li>
+               <li><a href="login.html">Logout</a></li>
+               </ul>
+               </div>
+               
+               </div>  
+
+
+
+
+
+   
+    
+
+
+
+2.BUTTONS:
+   i) .btn
+
+   ii) .btn-default  
+
+   iii) .btn-success
+
+   iv) .btn-link
+
+   v) .btn-lg
+
+   vi) .btn-sm
+
+   vii) .btn-xs
+
+       USAGE:1. <button class="btn">Submit</button>
+
+             2. <button class="btn btn-default">Subscribe to the Newsletter</button>
+
+             3. <button class="btn btn-success">Login</button>
+
+             4. <button class="btn btn-link">Im a Link with an underline</button>
+
+             5. <button class="btn btn-lg">Im pretty huge</button>
+
+             6. <button class="btn btn-sm">Im a small button</button>
+
+             7. <button class="btn btn-xs">Im almost micro</button>
+
+
+
+
+
+3.TYPOGRAPHY
+   i) .lead
+
+        USAGE:1. <p class="lead">Lorem ipsum blah wah</p>
+
+
+
+4.TABLES:
+    i) .table-responsive
+
+    ii) .table  
+
+    iii) .table-hover
+
+    iv) .table-bordered
+
+         USAGE:1. <div class="container">
+                  <div class="table-responsive">
+	              <table class="table">
+
+		          <thead>
+			      <tr>
+				  <th>Serial No.</th>
+				  <th>First Name</th>
+				  <th>Last Name</th>
+			      </tr>
+		          </thead>
+
+		          <tbody>
+			      <tr>
+				  <td>01</td>
+				  <td>Yasaa</td>
+				  <td>Moin</td>
+			      </tr>
+		          </tbody>
+
+	              </table>
+                  </div>
+                  </div>
+
+
+
+               2. <div class="container">
+                  <table class="table">
+
+		          <thead>
+			      <tr>
+				  <th>Serial No.</th>
+				  <th>First Name</th>
+				  <th>Last Name</th>
+			      </tr>
+		          </thead>
+
+		          <tbody>
+			      <tr>
+				  <td>01</td>
+				  <td>Yasaa</td>
+				  <td>Moin</td>
+			      </tr>
+		          </tbody>
+
+	              </table>
+                  </div> 
+
+
+
+                3.<div class="container">
+                  <table class="table table-hover">
+                  <thead>
+                  <tr>
+                  <th>Serial No.</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td>01</td>
+                  <td>Yasaa</td>
+                  <td>Moin</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  </div>
+
+
+                4.<div class="container">
+                  <table class="table table-bordered">
+                  <thead>
+                  <tr>
+                  <th>Serial No.</th>
+                  <th>First Name</th>
+                  <th>Last Name</th>
+                  </tr>
+                  </thead>
+                  <tbody>
+                  <tr>
+                  <td>01</td>
+                  <td>Yasaa</td>
+                  <td>Moin</td>
+                  </tr>
+                  </tbody>
+                  </table>
+                  </div>
+                  
+
+
+
+5.FORMS:A form with vertical layout,A form with inline layout.
+   i) .form-group
+
+   ii) .form-control
+
+   iii) .checkbox
+
+           USAGE:1.<div class="container">
+                  <form>
+                  <div class="form-group">
+                  <label for="email">Email</label>	
+                  <input type="email" class="form-control" id="email">
+                  </div>
+                  <div class="form-group">
+                  <label for="pwd">Password</label>
+                  <input type="password" class="form-control"  id="pwd">
+                  </div>
+                  <div class="checkbox">
+                  <label><input type="checkbox">Remember Me</label>
+                  </div>
+
+                  <button type="submit" class="btn btn-default">Submit</button>
+                  </form>
+                  </div>
+
+
+                 2.<div class="container">
+                 <form class="form-inline">
+                 <div class="form-group">
+                 <label for="email">Email</label>	
+                 <input type="email" class="form-control" id="email">
+                 </div>
+                 <div class="form-group">
+                 <label for="pwd">Password</label>
+                 <input type="password" class="form-control"  id="pwd">
+                 </div>
+                 <div class="checkbox">
+                 <label><input type="checkbox">Remember Me</label>
+                 </div>
+
+                 <button type="submit" class="btn btn-default">Submit</button>
+                 </form>
+                 </div>
+
+
+6.NAVS:Navigation using tabs,Navigation using tabs and a dropdown,Navigation using horizontal pills,Navigation using vertical pills,Navigation using breadcrumb,Pager.
+   i) .nav
+
+   ii) .nav-tabs  
+
+   iii) .nav-pills
+
+   iv) .breadcrumb
+
+   v) .pager
+
+        USAGE: 1. <ul class="nav nav-tabs">
+                  <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+                  <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Profile</a></li>
+                  </ul>
+
+                  <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane fade active in" id="home">
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                  </div>
+                  <div class="tab-pane fade" id="profile">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                  </div>
+                  </div>
+
+
+                2.<ul class="nav nav-tabs">
+                  <li class="active"><a href="#home" data-toggle="tab" aria-expanded="true">Home</a></li>
+                  <li class=""><a href="#profile" data-toggle="tab" aria-expanded="false">Profile</a></li>
+                   <ul class="nav nav-tabs">
+                 
+                  <li role="presentation" class="dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                   Dropdown <span class="caret"></span>
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a href="#">Woah</a></li>
+                    <li><a href="#">Bleh</a></li>
+                 </ul>
+                </li>
+                  
+               </ul>
+
+                  	
+
+                  </li>
+                  </ul>
+
+                  <div id="myTabContent" class="tab-content">
+                  <div class="tab-pane fade active in" id="home">
+                  <p>Raw denim you probably haven't heard of them jean shorts Austin. Nesciunt tofu stumptown aliqua, retro synth master cleanse. Mustache cliche tempor, williamsburg carles vegan helvetica. Reprehenderit butcher retro keffiyeh dreamcatcher synth. Cosby sweater eu banh mi, qui irure terry richardson ex squid. Aliquip placeat salvia cillum iphone. Seitan aliquip quis cardigan american apparel, butcher voluptate nisi qui.</p>
+                  </div>
+                  <div class="tab-pane fade" id="profile">
+                  <p>Food truck fixie locavore, accusamus mcsweeney's marfa nulla single-origin coffee squid. Exercitation +1 labore velit, blog sartorial PBR leggings next level wes anderson artisan four loko farm-to-table craft beer twee. Qui photo booth letterpress, commodo enim craft beer mlkshk aliquip jean shorts ullamco ad vinyl cillum PBR. Homo nostrud organic, assumenda labore aesthetic magna delectus mollit.</p>
+                  </div>
+                  </div>
+                
+
+
+
+                3.<ul class="nav nav-pills">
+	              <li class="active"><a href="#" data-toggle="tab">Home</a></li>
+	              <li><a href="#" data-toggle="tab">Profile</a></li>
+	              <li><a href="#" data-toggle="tab">About</a></li>
+                  </ul>	
+
+
+
+                4.<ul class="nav nav-pills nav-stacked">
+	              <li class="active"><a href="#" data-toggle="tab">Home</a></li>
+	              <li><a href="#" data-toggle="tab">Profile</a></li>
+	              <li><a href="#" data-toggle="tab">About</a></li>
+                  </ul>	
+
+
+                5.<ul class="breadcrumb">
+	              <li class="active"><a href="#">Home</a></li>
+	              <li><a href="#">Library</a></li>
+	              <li><a href="#">About</a></li>
+                  </ul>	
+
+
+                6.<ul class="pager">
+                  <li><a href="#">&larr; Previous</a></li>
+	              <li><a href="#">Next &rarr;</a></li>
+                  </ul>	  
+
+
+
+7.INDICATORS:An indicator of warning or error,An indicator of success or successful submission or login
+   i) .alert
+
+   ii) .alert-dismissible 
+
+   iii) .alert-danger
+
+   iv) .alert-success
+
+   v) .close
+
+          USAGE:1.<div class="alert alert-dismissible alert-danger">
+		          <button type="button" class="close" data-dismiss="alert">&times;</button>
+		          <p>Bad</p>
+                  </div>
+
+                2.<div class="alert alert-dismissible alert-success">
+		          <button type="button" class="close" data-dismiss="alert">&times;</button>
+		          <p>Good</p>
+                  </div>  
+
+8.GLYPHICONS:A prototype image for user,A prototype image for menu and dropdown,A prototype image for a correct sign,A prototype image for comment 
+   i) .glyphicon
+
+   ii) .glyphicon-user
+
+   iii) .glyphicon-th-list
+
+   iv) .glyphicon-ok
+
+   v)   .glyphicon-comment
+
+          USAGE:1.E.g: <div class="container">
+	                   <a href="#" class="glyphicon glyphicon-user">Me</a>
+	                   </div>
+	                         or
+	                   <div class="container">      
+	                   <button class="glyphicon glyphicon-user"><a href="#">Me</a></button>
+                       </div>
+
+
+                2.E.g:<div class="container dropdown">
+
+	                  <a href="#" class="glyphicon glyphicon-th-list dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"></a>
+		              <ul class="dropdown-menu">
+		              <li><a href="#">fghj</a></li>
+		              <li><a href="#">guyuuj</a></li>
+		              <li><a href="#">fguii</a></li>
+	                  </ul>
+                      </div>
+
+
+
+                3.
+
+
+                4.
+
+
+9.CONTAINERS:
+   i) .container
+
+   ii) .container-fluid
+
+
+
+10.DIALOGS/MODALS: 
+   i) .modal
+
+   ii) .modal-dialog
+
+   iii) .modal-content
+
+   iv) .modal-header
+
+   v) .close
+
+   vi) .modal-body
+
+   vii) .modal-footer
+
+
