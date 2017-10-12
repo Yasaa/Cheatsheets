@@ -1,0 +1,9 @@
+This is my deconstruction of a project built by Mary Lou at the link https://tympanus.net/codrops/2013/04/17/slide-and-push-menus/
+
+A pretty helpful reusable code there.
+Lets first break down the .js files in it.
+
+CLASSIE.JS:
+Uses a built-in base class of javascript called "Element".The code in this file has some simple regex,but the project runs just as perfect 
+even without it.
+Only,two objects "classList" and "className" from the Element class are used. 
